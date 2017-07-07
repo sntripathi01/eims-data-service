@@ -73,4 +73,12 @@ public class Library {
 	public void setFine(String fine) {
 		this.fine = fine;
 	}
+
+	@Override
+	public String toString() {
+		return "Library [SchoolRegistrationNumber=" + SchoolRegistrationNumber + ", employeeNumber=" + employeeNumber
+				+ ", accountNo=" + accountNo + ", issueDate=" + issueDate + ", dueDate=" + dueDate + ", returnDate="
+				+ returnDate + ", issueRemark=" + issueRemark + ", fine=" + fine + "]";
+	}
+
 }

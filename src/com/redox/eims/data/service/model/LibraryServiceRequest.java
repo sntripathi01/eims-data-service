@@ -12,4 +12,10 @@ public class LibraryServiceRequest {
 	public void setLibrary(List<Library> library) {
 		this.library = library;
 	}
+
+	@Override
+	public String toString() {
+		return "LibraryServiceRequest [library=" + library + "]";
+	}
+	
 }
